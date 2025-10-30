@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Giovanni Fuentes, Texas A&M University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  C:\Users\gfuen\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\gfuen\Downloads\Spring 2025\ESET 349\349 project\349_project.uvprojx
+Project File Date:  04/27/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\gfuen\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target_1'
+"349_project_code.s", line 656: Warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+  656 0000050c         MOV     R2, #(RS|EN)    ; Set RS + EN
+"349_project_code.s", line 71: Warning: A1471W: Directive LTORG may be in an executable position
+   71 00000044         LTORG                   ; First literal pool
+"349_project_code.s", line 444: Warning: A1581W: Added 2 bytes of padding at address 0x35a
+  444 0000035c         LTORG                   ; Second literal pool
+"349_project_code.s", line 679: Warning: A1581W: Added 2 bytes of padding at address 0x536
+  679 00000538         END
+0 Errors, 4 Warnings
+assembling 349_project_code.s...
+linking...
+Program Size: Code=1528 RO-data=404 RW-data=24 ZI-data=1544  
+".\Objects\349_project.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil::STM32F4xx_DFP@3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+   * Component: CubeMX Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  ./STM32CubeMX/Target_1/MX_Device
+  ./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+  ./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc
+  ./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  ./STM32CubeMX/Target_1/STM32CubeMX/Inc
+  C:/Users/gfuen/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:CubeMX@1.0.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

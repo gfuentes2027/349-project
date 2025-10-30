@@ -1,0 +1,13 @@
+build-gen-idx:
+  generated-by: uVision version 5.41.0.0
+  generators:
+    - board: ""
+      device: STM32F401RETx
+      id: CubeMX
+      output: C:/Users/gfuen/Downloads/Spring 2025/ESET 349/349 project/STM32CubeMX/Target_1/
+      project-type: single-core
+      cbuild-gens:
+        - cbuild-gen: C:/Users/gfuen/Downloads/Spring 2025/ESET 349/349 project/349_project.Target_1.cbuild-gen.yml
+          configuration: .Target_1
+          name: C:/Users/gfuen/Downloads/Spring 2025/ESET 349/349 project/STM32CubeMX/Target_1/349_project.cgen.yml
+          project: 349_project
